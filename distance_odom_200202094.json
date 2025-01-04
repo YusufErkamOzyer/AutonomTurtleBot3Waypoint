@@ -1,0 +1,62 @@
+{
+    "distances": [
+        {
+            "from_waypoint": 0,
+            "to_waypoint": 1,
+            "distance": 1.07
+        },
+        {
+            "from_waypoint": 1,
+            "to_waypoint": 2,
+            "distance": 3.37
+        },
+        {
+            "from_waypoint": 2,
+            "to_waypoint": 3,
+            "distance": 2.55
+        },
+        {
+            "from_waypoint": 3,
+            "to_waypoint": 4,
+            "distance": 3.36
+        },
+        {
+            "from_waypoint": 4,
+            "to_waypoint": 5,
+            "distance": 4.01
+        },
+        {
+            "from_waypoint": 5,
+            "to_waypoint": 6,
+            "distance": 3.18
+        },
+        {
+            "from_waypoint": 6,
+            "to_waypoint": 7,
+            "distance": 3.27
+        },
+        {
+            "from_waypoint": 7,
+            "to_waypoint": 8,
+            "distance": 3.28
+        },
+        {
+            "from_waypoint": 8,
+            "to_waypoint": 9,
+            "distance": 3.74
+        },
+        {
+            "from_waypoint": 9,
+            "to_waypoint": 10,
+            "distance": 5.8
+        },
+        {
+            "from_waypoint": 0,
+            "to_waypoint": 1,
+            "distance": 3.82
+        }
+    ],
+    "total_distance": {
+        "total_distance": 37.44
+    }
+}

@@ -1,0 +1,278 @@
+[
+    {
+        "distances": [
+            {
+                "from_waypoint": 0,
+                "to_waypoint": 1,
+                "distance": 1.07
+            },
+            {
+                "from_waypoint": 1,
+                "to_waypoint": 2,
+                "distance": 3.37
+            },
+            {
+                "from_waypoint": 2,
+                "to_waypoint": 3,
+                "distance": 2.55
+            },
+            {
+                "from_waypoint": 3,
+                "to_waypoint": 4,
+                "distance": 3.36
+            },
+            {
+                "from_waypoint": 4,
+                "to_waypoint": 5,
+                "distance": 4.01
+            },
+            {
+                "from_waypoint": 5,
+                "to_waypoint": 6,
+                "distance": 3.18
+            },
+            {
+                "from_waypoint": 6,
+                "to_waypoint": 7,
+                "distance": 3.27
+            },
+            {
+                "from_waypoint": 7,
+                "to_waypoint": 8,
+                "distance": 3.28
+            },
+            {
+                "from_waypoint": 8,
+                "to_waypoint": 9,
+                "distance": 3.74
+            },
+            {
+                "from_waypoint": 9,
+                "to_waypoint": 10,
+                "distance": 5.8
+            }
+        ],
+        "total_distance": {
+            "total_distance": 33.63
+        }
+    },
+    {
+        "waypoints": [
+            {
+                "id": 1,
+                "x": 1.39,
+                "y": 0.552,
+                "w": 0.00247
+            },
+            {
+                "id": 2,
+                "x": 0.618,
+                "y": -1.86,
+                "w": 0.00247
+            },
+            {
+                "id": 3,
+                "x": -0.507,
+                "y": -0.491,
+                "w": 0.00247
+            },
+            {
+                "id": 4,
+                "x": -1.51,
+                "y": 1.4,
+                "w": -0.00143
+            },
+            {
+                "id": 5,
+                "x": 0.527,
+                "y": -0.512,
+                "w": 0.00247
+            },
+            {
+                "id": 6,
+                "x": 1.79,
+                "y": 1.3,
+                "w": 0.00247
+            },
+            {
+                "id": 7,
+                "x": -0.517,
+                "y": 1.01,
+                "w": 0.00247
+            },
+            {
+                "id": 8,
+                "x": -0.537,
+                "y": -2.03,
+                "w": -0.00143
+            },
+            {
+                "id": 9,
+                "x": 1.81,
+                "y": -0.00507,
+                "w": -0.00143
+            },
+            {
+                "id": 10,
+                "x": -1.51,
+                "y": 1.4,
+                "w": -0.00143
+            }
+        ]
+    },
+    {
+        "waypoint_paths": [
+            {
+                "waypoint_id": "1",
+                "planned_length": "1.05 metre"
+            },
+            {
+                "waypoint_id": "2",
+                "planned_length": "3.25 metre"
+            },
+            {
+                "waypoint_id": "3",
+                "planned_length": "2.48 metre"
+            },
+            {
+                "waypoint_id": "4",
+                "planned_length": "3.25 metre"
+            },
+            {
+                "waypoint_id": "5",
+                "planned_length": "4.14 metre"
+            },
+            {
+                "waypoint_id": "6",
+                "planned_length": "3.25 metre"
+            },
+            {
+                "waypoint_id": "7",
+                "planned_length": "3.25 metre"
+            },
+            {
+                "waypoint_id": "8",
+                "planned_length": "3.16 metre"
+            },
+            {
+                "waypoint_id": "9",
+                "planned_length": "3.84 metre"
+            },
+            {
+                "waypoint_id": "10",
+                "planned_length": "4.85 metre"
+            }
+        ]
+    },
+    {
+        "distances": [
+            {
+                "from_waypoint": 0,
+                "to_waypoint": 1,
+                "distance": 1.23
+            },
+            {
+                "from_waypoint": 1,
+                "to_waypoint": 2,
+                "distance": 3.6
+            },
+            {
+                "from_waypoint": 2,
+                "to_waypoint": 3,
+                "distance": 2.52
+            },
+            {
+                "from_waypoint": 3,
+                "to_waypoint": 4,
+                "distance": 3.25
+            },
+            {
+                "from_waypoint": 4,
+                "to_waypoint": 5,
+                "distance": 3.72
+            },
+            {
+                "from_waypoint": 5,
+                "to_waypoint": 6,
+                "distance": 3.44
+            },
+            {
+                "from_waypoint": 6,
+                "to_waypoint": 7,
+                "distance": 3.25
+            },
+            {
+                "from_waypoint": 7,
+                "to_waypoint": 8,
+                "distance": 3.18
+            },
+            {
+                "from_waypoint": 8,
+                "to_waypoint": 9,
+                "distance": 3.71
+            },
+            {
+                "from_waypoint": 9,
+                "to_waypoint": 10,
+                "distance": 6.33
+            }
+        ],
+        "total_distance": {
+            "total_distance": 34.23
+        }
+    },
+    {
+        "tasks": [
+            {
+                "waypoint_id": 1,
+                "result": "SUCCESS",
+                "current_position": "{'x': 1.45, 'y': 0.56, 'theta': 0.22}"
+            },
+            {
+                "waypoint_id": 2,
+                "result": "SUCCESS",
+                "current_position": "{'x': 0.70, 'y': -1.96, 'theta': 0.22}"
+            },
+            {
+                "waypoint_id": 3,
+                "result": "SUCCESS",
+                "current_position": "{'x': -0.49, 'y': -0.60, 'theta': 0.23}"
+            },
+            {
+                "waypoint_id": 4,
+                "result": "SUCCESS",
+                "current_position": "{'x': -1.58, 'y': 1.33, 'theta': 0.23}"
+            },
+            {
+                "waypoint_id": 5,
+                "result": "SUCCESS",
+                "current_position": "{'x': 0.32, 'y': -0.60, 'theta': -0.02}"
+            },
+            {
+                "waypoint_id": 6,
+                "result": "SUCCESS",
+                "current_position": "{'x': 1.84, 'y': 1.26, 'theta': 0.23}"
+            },
+            {
+                "waypoint_id": 7,
+                "result": "SUCCESS",
+                "current_position": "{'x': -0.55, 'y': 1.05, 'theta': -0.23}"
+            },
+            {
+                "waypoint_id": 8,
+                "result": "SUCCESS",
+                "current_position": "{'x': -0.51, 'y': -2.13, 'theta': -0.22}"
+            },
+            {
+                "waypoint_id": 9,
+                "result": "SUCCESS",
+                "current_position": "{'x': 1.86, 'y': 0.02, 'theta': 0.24}"
+            },
+            {
+                "waypoint_id": 10,
+                "result": "SUCCESS",
+                "current_position": "{'x': -1.58, 'y': 1.29, 'theta': 0.23}"
+            }
+        ]
+    }
+]

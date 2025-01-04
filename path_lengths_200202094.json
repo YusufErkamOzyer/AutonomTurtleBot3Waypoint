@@ -1,0 +1,52 @@
+{
+    "waypoint_paths": [
+        {
+            "waypoint_id": "1",
+            "planned_length": "1.05 metre"
+        },
+        {
+            "waypoint_id": "2",
+            "planned_length": "3.25 metre"
+        },
+        {
+            "waypoint_id": "3",
+            "planned_length": "2.48 metre"
+        },
+        {
+            "waypoint_id": "4",
+            "planned_length": "3.25 metre"
+        },
+        {
+            "waypoint_id": "5",
+            "planned_length": "4.14 metre"
+        },
+        {
+            "waypoint_id": "6",
+            "planned_length": "3.25 metre"
+        },
+        {
+            "waypoint_id": "7",
+            "planned_length": "3.25 metre"
+        },
+        {
+            "waypoint_id": "8",
+            "planned_length": "3.16 metre"
+        },
+        {
+            "waypoint_id": "9",
+            "planned_length": "3.84 metre"
+        },
+        {
+            "waypoint_id": "10",
+            "planned_length": "4.85 metre"
+        },
+        {
+            "waypoint_id": "11",
+            "planned_length": "4.06 metre"
+        },
+        {
+            "waypoint_id": "12",
+            "planned_length": "2.91 metre"
+        }
+    ]
+}

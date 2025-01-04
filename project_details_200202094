@@ -1,0 +1,33 @@
+Abone Olunan Konular (Subscriptions):
+Bu uygulamada sadece /odom, /amcl_pose topiclerine abone olunmuştur.
+
+/odom topic:NavigateToPose actionundan gelen feedbackin durumunu task_result_200202094.json dosyasına eklerken robotun konumunu almak için ve robotun görev sürecinde izlediği yolu hesaplamak için abone olunuldu.
+/amcl_pose:Robotun tahimini pozisyonu kullanılarak robotun tahmini aldığı mesafe hesaplamak için kullanıldı.
+
+
+Aksiyonlar (Actions):
+Bu uygulamada action olarak NavigateToPose action u kullanıldı.Bu action un amacı robotun harita üzerinde belirli bir hedefe (x, y koordinatları ve yönelim açısı içeren bir pozisyon) ulaşılması sağlandı.Yine aynı zamanda action un feedback mekanizması ile robotun nerede olduğu, hedefe ne kadar uzak olduğu gibi bilgiler alınıp işlendi.
+
+AMCL ve Odom Mesafe Farklarının Yorumlanması:
+/odom topic verileri yerelden (robotun kendisinden) yayınlar.Bu yöntem sadece tekerlek hareketlerine dayandığından, kayma, tekerlek kaybı veya dönen yüzeylerde sapmalar yaşanabilir.
+
+
+/amcl_pose,robotun çevresindeki lidar veya başka sensörlerle oluşturduğu bir haritaya dayalı olarak yerelize eder./amcl_pose daha çok global bir referansla çalıştığından, genellikle odometriden daha doğru mesafeler sağlar.
+
+/amcl_pose frekansı /odom frekansından daha küçük olduğu için bir önceki positionan şimdiki position arasında eski positionuna yakınlaştığı zaman aynı şekilde mesafe daha az çıkabilir bu da kümülatif olarak sonucun daha az çıkmasına neden olabilir.
+
+
+
+
+
+
+Kazanımlar:
+1)Bu uygulama sayesinde Ubuntu işletim sisteminde terminalde komutların nasıl yazılacağı ve komutların işlevselliği ile ilgili kazanımlar kazandım,
+
+2)Waypoint tabanlı hareketin, robotik sistemlerde nasıl çalıştığını ve uygulanabileceğini anlamış odlum.
+
+3)odom ve amcl_pose topiclerinin kullanımı ile Odometrik kaymalarla başa çıkmayı öğrendim ve bu verilerin nasıl birleştirileceğini anladım.
+
+4)Waypoint'lerin, yol uzunluklarının, görev sonuçlarının ve ölçüm mesafelerinin JSON dosyalarında saklanması ile Büyük veriyi yapılandırmak, düzenlemek ve dış kaynaklarda saklamak için JSON yönetimi becerisi edindim.
+
+5)Görev tamamlama durumları (SUCCESS, CANCELED, ABORTED) ve bunun kontrol mekanizmalarını öğrendim.
